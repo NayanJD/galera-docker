@@ -15,6 +15,7 @@ wsrep_provider=/usr/lib/galera/libgalera_smm.so
 # Galera Cluster Configuration
 wsrep_cluster_name="Staging"
 wsrep_cluster_address="gcomm://13.71.165.197,104.130.204.123"
+wsrep_sst_receive_address=127.0.0.1
 
 # Galera Synchronization Configuration
 wsrep_sst_method=mariabackup
